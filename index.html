@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irvan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/19aba0697a.js" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero" id="home">
+            <div>
+                <h1 class="hidden">Hi, my name is <strong class="merriweather">Irvan Castro</strong></h1>
+                <p class="hidden">I'm an aspiring <strong>full stack web developer</strong> from the Philippines.</p>
+            </div>
+            <div>
+                <img src="assets/irvan-pic.jpg" alt="Irvan" class="hidden" height="auto" width="300px" id="hero-pic">
+                <div id="secret-content">
+                    <label for="secret">
+                        What's the word?
+                    </label>
+                    <input type="text" name="secret" placeholder="Safe word" autofocus>
+                    <p class="input-response"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div>
+                <h1 class="section-title hidden">A little bit about me</h1>
+                <div class="hidden">
+                    <p>Hello! I'm an ambitious Computer Science student at Mapúa University who is driven by a passion for innovation and continuous learning. I thrive on tackling challenges, embracing constructive feedback, and turning mistakes into opportunities for growth.</p>
+                    <p>I specialize in JavaScript and have built several projects that showcase my skills in creating dynamic, interactive applications. Recently, I’ve been exploring React.js and Node.js, and I’m excited about deepening my expertise in the language.</p>
+                    <p>Beyond coding, I enjoy working out, playing video games, and reading books, which fuels my creativity and problem-solving mindset.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div>
+                <h1 class="section-title hidden">My projects</h1>
+                <ul class="projects-list">
+                    <li class="hidden">
+                        <a href="https://senslay.github.io/todo-list/" target="_blank">
+                            <img src="assets/todo-list-ss.png" alt="Todo List App" style="background-color: aliceblue; object-fit: fill;" width="100%" height="200px">
+                        </a>
+                        <div>
+                            <h2>To-do List</h2>
+                            <div>
+                                <a href="https://github.com/SenSlay/todo-list" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://senslay.github.io/todo-list/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>A CRUD app that manages your To-do list.</p>
+                    </li>
+                    <li class="hidden">
+                        <a href="https://senslay.github.io/weather-app/" target="_blank">
+                            <img src="assets/weather-app-ss.png" alt="Weather App" style="background-color: aliceblue;" width="100%" height="200px">
+                        </a>
+                        <div>
+                            <h2>Weather App</h2>
+                            <div>
+                                <a href="https://github.com/SenSlay/weather-app" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://senslay.github.io/weather-app/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>A Weather App that uses API to show weather forecast of a location.</p>
+                    </li>
+                    <li class="hidden">
+                        <a href="https://senslay.github.io/battleship/" target="_blank">
+                            <img src="assets/battleship-ss.png" alt="Battleship App" style="background-color: aliceblue;" width="100%" height="200px">
+                        </a>
+                        <div>
+                            <h2>Battleship Game</h2>
+                            <div>
+                                <a href="https://github.com/SenSlay/battleship" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://senslay.github.io/battleship/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>A Battleship game created to practice TDD principle using Jest.</p>
+                    </li>
+                    <li class="hidden">
+                        <a href="https://senslay.github.io/tic-tac-toe/" target="_blank">
+                            <img src="assets/tictactoe-ss.png" alt="Tic Tac Toe App" style="background-color: aliceblue;" width="100%" height="200px">
+                        </a>
+                        <div>
+                            <h2>Tic-Tac-Toe</h2>
+                            <div>
+                                <a href="https://github.com/SenSlay/tic-tac-toe" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://senslay.github.io/tic-tac-toe/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>A responsive Tic-Tac-Toe game.</p>
+                    </li>
+                    <li class="hidden">
+                        <a href="https://senslay.github.io/etch-a-sketch/" target="_blank">
+                            <img src="assets/etch-a-sketch-ss.png" alt="Etch-A-Sketch App" style="background-color: aliceblue;" width="100%" height="200px">
+                        </a>
+                        <div>
+                            <h2>Etch-A-Sketch</h2>
+                            <div>
+                                <a href="https://github.com/SenSlay/etch-a-sketch" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://senslay.github.io/etch-a-sketch/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p>A Etch-a-Sketch game for practice of DOM manipulation.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/SenSlay" target="_blank">
+                            <button type="button">
+                                More on my Github!
+                                <span></span>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h1>Get in Touch</h1>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <p>castroirvan@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>0967 260 9033</p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/irvan-castro/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SenSlay" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/irvan.castro/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
