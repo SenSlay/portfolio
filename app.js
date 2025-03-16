@@ -76,7 +76,6 @@
     hiddenEls.forEach((el) => observer.observe(el));
 
     const target = document.querySelector('section.projects ul li:last-child button');
-    console.log(target)
     if (target) observer.observe(target);
 
     function handleTransitionEnd(event) {
